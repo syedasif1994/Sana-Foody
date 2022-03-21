@@ -14,7 +14,7 @@ body{
 
 .banner{
     position: relative;
-    background: url("/img/bg.jpg") no-repeat fixed;
+    background: url("../img/bg.jpg") no-repeat fixed;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
