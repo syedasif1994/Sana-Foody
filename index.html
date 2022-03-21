@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Foody</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="" id="logo " class="logo"> SANA <span>FOODY.</span></a>
+        <nav>
+            <ul class="navbar">
+                <li class=""><a href="#banner">HOME</a></li>
+                <li class=""><a href="#about">ABOUT</a></li>
+                <li class=""><a href="#menu">MENU</a></li>
+                <li class=""><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="banner" id="banner">
+        <div class="content">
+            <h1>SANA FOODY</h1>
+            <h2>Welcome to everyone</h2>
+            <p>Good food is the foundation of genuine happiness</p>
+            <a href="" class="btn">OUR MENU</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h1 class="aboutTitle">A<span>bout us</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsum blanditiis, laborum, sapiente
+                    hic nam illum corrupti perspiciatis earum vel distinctio id eum dolorem rem saepe eaque doloremque,
+                    quis maxime!</p>
+            </div>
+            <div class="col50">
+                <div class="imgAb">
+                    <img src="/img/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="menu" id="menu">
+        <h1>menu</h1>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>contact</h1>
+    </section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+</body>
+
+</html>
+
