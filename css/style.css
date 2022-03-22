@@ -279,6 +279,7 @@ margin-bottom: 10px;
 }
 
 .inputBox input{
+    text-align: center;
 font-weight: bolder;
 font-family: 'Roboto Slab', serif;
     font-size: 1em;
@@ -329,3 +330,11 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+/*--------------            ------------- */
+/*-------------- Responsive ------------- */
+/*--------------            ------------- */
+
