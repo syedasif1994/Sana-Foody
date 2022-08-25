@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Foody</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <a href="" id="logo " class="logo"> SANA <span>FOODY.</span></a>
+        <nav>
+            <ul class="navbar">
+                <li class=""><a href="#banner">HOME</a></li>
+                <li class=""><a href="#about">ABOUT</a></li>
+                <li class=""><a href="#menu">MENU</a></li>
+                <li class=""><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h1>SANA FOODY</h1>
+            <h2>Welcome to everyone</h2>
+            <p>Good food is the foundation of genuine happiness</p>
+            <a href="#menu" class="btn">OUR MENU</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h1 class="aboutTitle">A<span>bout us</span></h1>
+                <p>Myself Sana Imam founder of SANA FOODY</p>
+            </div>
+            <div class="col50">
+                <div class="imgAb">
+                    <img src="img/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h1 class="aboutTitle">M<span>enu List</span></h1>
+            <p>Checkout our menu List</p>
+        </div>
+        <div class="dishes">
+            <div class="box">
+                <div class="imgMenu">
+                    <img src="img/chinese.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Chinese Dishes</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgMenu">
+                    <img src="img/salad.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Salad</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgMenu">
+                    <img src="img/pizza.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pizza</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgMenu">
+                    <img src="img/burger.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Burger</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h1 class="aboutTitle">C<span>ontact us</span></h1>
+        </div>
+            <div class="form">
+                <h3>Send Messsage</h3>
+                <div class="inputBox">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Full Name">
+                </div>
+                <div class="inputBox">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email ID">
+                </div>
+                <div class="inputBox">
+                    <textarea name="feedback" id="feedback" placeholder="Enter your feedback"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="submit" id="submit" value="Send">
+                </div>
+            </div>
+      
+    </section>
+
+
+    <footer class="footer">
+        Copyright &copy; Sana Foody 2022,All right reserved.
+    </footer>
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+</body>
+
+</html>
