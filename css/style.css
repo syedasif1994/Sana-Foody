@@ -257,7 +257,6 @@ header.sticky {
     background: white;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
     width: 80%;
-    height: 60vh;
     margin: auto;
 }
 
@@ -312,7 +311,7 @@ header.sticky {
     letter-spacing: 2px;
     transition: 0.5s;
     width: 10vw;
-  padding: 10px;
+    padding: 10px;
     border: none;
     cursor: pointer;
 }
@@ -475,7 +474,6 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 38vh;
         margin-top: 10px;
     }
 
@@ -660,7 +658,6 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 43vh;
         margin-top: 10px;
     }
 
@@ -846,7 +843,6 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 43vh;
         margin-top: 10px;
     }
 
@@ -1029,7 +1025,6 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 43vh;
         margin-top: 10px;
     }
 
@@ -1207,7 +1202,6 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 48vh;
         margin-top: 10px;
     }
 
