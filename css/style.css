@@ -475,7 +475,7 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 40vh;
+        height: 42vh;
         margin-top: 10px;
     }
 
@@ -514,8 +514,8 @@ header.sticky {
         font-size: 0.6em;
         letter-spacing: 2px;
         transition: 0.5s;
-        width: 17vw;
-        padding: 5px;
+        width: 20vw;   
+        padding: 10px;
     }
 
 
@@ -660,7 +660,7 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 40vh;
+        height: 45vh;
         margin-top: 10px;
     }
 
@@ -700,7 +700,8 @@ header.sticky {
         font-size: 0.6em;
         letter-spacing: 2px;
         transition: 0.5s;
-        width: 17vw;   
+        width: 20vw;   
+        padding: 10px;   
     }
 
 
@@ -845,7 +846,7 @@ header.sticky {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 40vh;
+        height: 45vh;
         margin-top: 10px;
     }
 
@@ -885,7 +886,8 @@ header.sticky {
         font-size: 0.6em;
         letter-spacing: 2px;
         transition: 0.5s;
-        width: 17vw;   
+        width: 20vw;   
+        padding: 10px;
     }
 
 
@@ -968,7 +970,6 @@ header.sticky {
         margin-top: 15px;
     }
 
-
     .btn {
         font-size: 1em;
         padding: 5px 10px;
@@ -1022,14 +1023,13 @@ header.sticky {
         font-size: 1.7em;
     }
 
-/*-------------- CONTACT------------- */
 
     /*-------------- CONTACT------------- */
     .form {
         padding: 5px;
         width: 100%;
         margin: auto;
-        height: 40vh;
+        height: 45vh;
         margin-top: 10px;
     }
 
@@ -1066,10 +1066,9 @@ header.sticky {
     }
 
     .inputBox input[type="submit"] {
-        font-size: 0.6em;
+        font-size: 0.7em;
         letter-spacing: 2px;
         transition: 0.5s;
-        width: 17vw;   
     }
 
 
@@ -1084,7 +1083,7 @@ header.sticky {
 
 }
 
-/*-------------- Responsive 769x760 ------------- */
+/*-------------- Responsive 769x1024 ------------- */
 
 @media (min-width:769px) and (max-width:1024px) {
 
@@ -1203,7 +1202,66 @@ header.sticky {
         font-size: 1.6em;
     }
 
+     /*-------------- CONTACT------------- */
+     .form {
+        padding: 5px;
+        width: 100%;
+        margin: auto;
+        height: 50vh;
+        margin-top: 10px;
+    }
+
+    .form h3 {
+        font-size: 1.2em;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .inputBox {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 12px;
+    }
+
+    .inputBox label {
+        font-size: 14px;
+    }
+
+    .inputBox input {
+        font-size: 0.8em;
+        width: 100%;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        height: 20vh;
+        font-size: 0.7em;
+        border-radius: 10px;
+    }
+
+    .inputBox input[type="submit"] {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    }
+
+
+    /*-------------- footer------------- */
+
+    .footer {
+        padding: 8px;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+
 }
+
+/*-------------- Responsive 1025x1280 ------------- */
 
 @media (min-width:1025px) and (max-width:1280px) {}
 
