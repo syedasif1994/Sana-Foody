@@ -7,8 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    width:100%;
+body {
+    width: 100%;
 }
 
 .banner {
@@ -103,8 +103,8 @@ header.sticky {
     box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
 }
 
-.sticky{
-    width:100%;
+.sticky {
+    width: 100%;
 }
 
 /*-------------- CONTENT------------- */
@@ -255,8 +255,8 @@ header.sticky {
     padding: 30px;
     background: white;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
 }
 
 .form h3 {
@@ -270,9 +270,9 @@ header.sticky {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-left:50px;
-    padding-right:50px;
-    margin-bottom:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -320,7 +320,7 @@ header.sticky {
 
 .footer {
     font-family: 'Roboto Slab', serif;
-padding: 10px;
+    padding: 10px;
     font-size: 1em;
     background-color: black;
     color: yellow;
@@ -338,400 +338,421 @@ padding: 10px;
 
 
 
-@media (min-width:320px) and (max-width:399px){
+@media (min-width:320px) and (max-width:399px) {
 
 
     section {
         padding: 10px;
     }
-    
+
     .aboutTitle {
         font-size: 2em;
     }
-    
+
     /*-------------- HEADER ------------- */
 
-    header{
+    header {
         padding: 10px;
     }
-    
+
     .logo {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
-    
+
     .logo span {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
-    
-.navbar{
-    margin-right: 10px;
-}
+
+    .navbar {
+        margin-right: 10px;
+    }
+
     .navbar li {
-        margin-right: 6px;
-        margin-left: 6px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
-    
+
     .navbar li a {
         font-size: 0.8em;
     }
-    
+
     .navbar li a:hover {
         font-size: 0.9em;
     }
-    
+
     header.sticky {
         padding: 5px 10px;
     }
-    
-/*-------------- CONTENT------------- */
 
-.content {
-    margin-top: 50px;
-    width: 50%;
-}
+    /*-------------- CONTENT------------- */
 
-.content h1 {
-    font-size: 3em;
-}
+    .content {
+        margin-top: 150px;
+        width: 100%;
+    }
 
-.content h2 {
-    font-size: 1.5em;
-    margin-top: 10px;
-}
+    .content h1 {
+        font-size: 2.5em;
+    }
 
-.content p {
-    font-size: 0.8em;
-    margin-top: 10px;
-}
+    .content h2 {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
 
-
-.btn {
-    font-size: 0.8em;
-    padding: 5px 10px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-}
-
-.btn:hover {
-    letter-spacing: 4px;
-}
+    .content p {
+        font-size: 0.7em;
+        margin-top: 15px;
+    }
 
 
-/*-------------- ABOUT------------- */
+    .btn {
+        font-size: 0.7em;
+        padding: 5px 10px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .btn:hover {
+        letter-spacing: 4px;
+    }
 
 
-.row {
-    letter-spacing: 1px;
-}
+    /*-------------- ABOUT------------- */
 
-.row p {
- font-size: 10px;
-}
+    .row {
+        letter-spacing: 1px;
+        min-height: 30vh;
+    }
 
+    .row p {
+        font-size: 10px;
+    }
 
-.imgAb img {
-    width: 50vw;
-    height: 40vh;
-}
+    .imgAb img {
+        display: none;
+    }
 
-/*-------------- MENU------------- */
+    /*-------------- MENU------------- */
 
+    .dishes {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .box {
+        padding: 5px;
+        width: 100%;
+        height: 20%;
+    }
 
-.dishes {
-    display: flex;
-  flex-direction: column;
-}
+    .imgMenu {
+        width: 100%;
+        height: 20vh;
+    }
 
-.box {
-    padding: 10px;
-    width: 100%;
-    height: 50%;
-    margin-top: 10px;
-}
+    .text {
+        padding: 7px 3px;
+    }
 
-.imgMenu {
-    width: 100%;
-    height: 30vh;
-}
-
-.text {
-    padding: 10px 5px;
-}
-
-.text h3 {
-    font-size: 1.5em;
-}
-
-
+    .text h3 {
+        font-size: 1em;
+    }
 }
 
 
 
-@media (min-width:400px) and (max-width:480px){
+@media (min-width:400px) and (max-width:480px) {
 
     section {
-        padding: 10px;
+        padding: 12px;
     }
-    
+
     .aboutTitle {
-        font-size: 2em;
+        font-size: 2.2em;
     }
-    
+
     /*-------------- HEADER ------------- */
 
-    header{
+    header {
         padding: 15px;
     }
-    
+
     .logo {
-        font-size: 0.9em;
+        font-size: 1em;
     }
-    
+
     .logo span {
-        font-size: 0.9em;
+        font-size: 1em;
     }
-    
-.navbar{
-    margin-right: 10px;
-}
+
+    .navbar {
+        margin-right: 10px;
+    }
+
     .navbar li {
         margin-right: 6px;
         margin-left: 6px;
     }
-    
+
     .navbar li a {
-        font-size: 0.9em;
-    }
-    
-    .navbar li a:hover {
         font-size: 1em;
     }
-    
-    header.sticky {
-        padding: 10px 10px;
+
+    .navbar li a:hover {
+        font-size: 1.1em;
     }
-    
-/*-------------- CONTENT------------- */
 
-.content {
-    margin-top: 50px;
-    width: 50%;
+    header.sticky {
+        padding: 12px 12px;
+    }
+
+    /*-------------- CONTENT------------- */
+
+    .content {
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 2.8em;
+    }
+
+    .content h2 {
+        font-size: 1.8em;
+        margin-top: 15px;
+    }
+
+    .content p {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+
+
+    .btn {
+        font-size: 0.8em;
+        padding: 5px 10px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .btn:hover {
+        letter-spacing: 4px;
+    }
+
+
+    /*-------------- ABOUT------------- */
+
+    .row {
+        letter-spacing: 1.5px;
+        min-height: 30vh;
+    }
+
+    .row p {
+        font-size: 12px;
+    }
+
+    .imgAb img {
+        display: none;
+    }
+
+    /*-------------- MENU------------- */
+
+    .dishes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 5px;
+        width: 100%;
+        height: 20%;
+    }
+
+    .imgMenu {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .text {
+        padding: 7px 3px;
+    }
+
+    .text h3 {
+        font-size: 1em;
+    }
+
 }
 
-.content h1 {
-    font-size: 3em;
-}
-
-.content h2 {
-    font-size: 1.5em;
-    margin-top: 10px;
-}
-
-.content p {
-    font-size: 0.8em;
-    margin-top: 10px;
-}
-
-
-.btn {
-    font-size: 0.8em;
-    padding: 5px 10px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-}
-
-.btn:hover {
-    letter-spacing: 4px;
-}
-
-
-/*-------------- ABOUT------------- */
-
-
-.row {
-    letter-spacing: 1px;
-}
-
-.row p {
- font-size: 10px;
-}
-
-
-.imgAb img {
-    width: 50vw;
-    height: 40vh;
-}
-
-/*-------------- MENU------------- */
 
 
 
-.dishes {
-    display: flex;
-  flex-direction: column;
-}
-
-.box {
-    padding: 10px;
-    width: 100%;
-    height: 50%;
-    margin-top: 10px;
-}
-
-.imgMenu {
-    width: 100%;
-    height: 30vh;
-}
-
-.text {
-    padding: 10px 5px;
-}
-
-.text h3 {
-    font-size: 1.5em;
-}
-
-}
-
-
-
-
-@media (min-width:481px) and (max-width:768px){
-
+@media (min-width:481px) and (max-width:768px) {
 
     section {
         padding: 15px;
     }
-    
+
     .aboutTitle {
-        font-size: 2.2em;
+        font-size: 2.4em;
     }
-    
+
     /*-------------- HEADER ------------- */
 
-    header{
-        padding: 20px;
+    header {
+        padding: 15px;
     }
-    
+
     .logo {
-        font-size: 1em;
-    }
-    
-    .logo span {
-        font-size: 1em;
-    }
-    
-.navbar{
-    margin-right: 10px;
-}
-    .navbar li {
-        margin-right: 8px;
-        margin-left: 8px;
-    }
-    
-    .navbar li a {
         font-size: 1.1em;
     }
-    
-    .navbar li a:hover {
+
+    .logo span {
+        font-size: 0.9em;
+    }
+
+    .navbar {
+        margin-right: 5px;
+    }
+
+    .navbar li {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+
+    .navbar li a {
         font-size: 1.2em;
     }
-    
-    header.sticky {
-        padding: 10px 20px;
+
+    .navbar li a:hover {
+        font-size: 1.3em;
     }
-    
-/*-------------- CONTENT------------- */
 
-.content {
-    margin-top: 80px;
-    width: 50%;
+    header.sticky {
+        padding: 15px 15px;
+    }
+
+    /*-------------- CONTENT------------- */
+
+    .content {
+        margin-top: 150px;
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 3.5em;
+    }
+
+    .content h2 {
+        font-size: 2em;
+        margin-top: 15px;
+    }
+
+    .content p {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+
+    .btn {
+        font-size: 1em;
+        padding: 5px 10px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .btn:hover {
+        letter-spacing: 4px;
+    }
+
+
+    /*-------------- ABOUT------------- */
+
+    .row {
+        letter-spacing: 1.2px;
+    }
+
+    .row p {
+        font-size: 15px;
+    }
+
+    .imgAb img {
+        width: 50vw;
+        height: 40vh;
+        margin-left: 5px;
+    }
+
+    /*-------------- MENU------------- */
+
+    .dishes {
+        display: flex;
+    }
+
+    .box {
+        padding: 5px;
+        width: 45%;
+        height: 20%;
+    }
+
+    .imgMenu {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .text {
+        padding: 7px 3px;
+    }
+
+    .text h3 {
+        font-size: 1.5em;
+    }
+   
 }
 
-.content h1 {
-    font-size: 3em;
+@media (min-width:481px) and (max-width:768px) {
+
+ /*-------------- HEADER ------------- */
+
+ header {
+    padding: 20px;
 }
 
-.content h2 {
-    font-size: 1.8em;
-    margin-top: 10px;
+.logo {
+    font-size: 1.2em;
 }
 
-.content p {
-    font-size: 1em;
-    margin-top: 10px;
+.logo span {
+    font-size: 0.9em;
 }
 
-
-.btn {
-    font-size: 1em;
-    padding: 5px 10px;
-    margin-top: 10px;
-    letter-spacing: 2px;
+.navbar {
+    margin-right: 5px;
 }
 
-.btn:hover {
-    letter-spacing: 4px;
+.navbar li {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-
-/*-------------- ABOUT------------- */
-
-
-.row {
-    letter-spacing: 2px;
+.navbar li a {
+    font-size: 1.2em;
 }
 
-.row p {
- font-size: 15px;
+.navbar li a:hover {
+    font-size: 1.3em;
 }
 
-
-.imgAb img {
-    width: 50vw;
-    height: 45vh;
+header.sticky {
+    padding: 15px 15px;
 }
-
-/*-------------- MENU------------- */
-
-
-
-.dishes {
-    display: flex;
-  flex-direction: column;
-}
-
-.box {
-    padding: 10px;
-    width: 100%;
-    height: 50%;
-    margin-top: 10px;
-}
-
-.imgMenu {
-    width: 100%;
-    height: 30vh;
-}
-
-.text {
-    padding: 10px 5px;
-}
-
-.text h3 {
-    font-size: 1.5em;
-}    
 
 }
 
-@media (min-width:76px) and (max-width:1024px){
 
-    
-}
 
-@media (min-width:1025px) and (max-width:1280px){
 
-    
-}
+@media (min-width:76px) and (max-width:1024px) {}
+
+@media (min-width:1025px) and (max-width:1280px) {}
 
 /*--------------            ------------- */
