@@ -16,6 +16,7 @@ body {
     background: url("../img/bg.jpg") no-repeat fixed;
     background-size: cover;
     width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,9 +111,8 @@ header.sticky {
 /*-------------- CONTENT------------- */
 
 .content {
-    margin-top: 120px;
+    margin-top: 100px;
     width: 60%;
-    height: 50vh;
     text-align: center;
 }
 
@@ -128,22 +128,24 @@ header.sticky {
     font-size: 3em;
     font-weight: bolder;
     color: yellow;
+    margin-top: 10px;
 }
 
 .content p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     font-weight: bolder;
+    margin-top: 10px;
 }
 
 
 .btn {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     background-color: brown;
     display: inline-block;
     padding: 10px 30px;
-    margin-top: 30px;
+    margin-top: 15px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -283,7 +285,7 @@ header.sticky {
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     width: 100%;
-    border: px solid blueviolet;
+    border: 1px solid blueviolet;
     outline: none;
     border-radius: 10px;
 }
@@ -331,18 +333,24 @@ header.sticky {
     align-items: center;
 }
 
+/*------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------ */
+/*--------------------------------- Responsive---------------------------- */
+/*------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------ */
 
-/*--------------------------------------- */
-/*-------------- Responsive ------------- */
-/*--------------------------------------- */
 
-
+/*-------------- Responsive 320x399 ------------- */
 
 @media (min-width:320px) and (max-width:399px) {
 
 
     section {
         padding: 10px;
+    }
+
+    .banner {
+        height: 60vh;
     }
 
     .aboutTitle {
@@ -387,7 +395,7 @@ header.sticky {
     /*-------------- CONTENT------------- */
 
     .content {
-        margin-top: 150px;
+        margin-top: 80px;
         width: 100%;
     }
 
@@ -458,14 +466,77 @@ header.sticky {
     .text h3 {
         font-size: 1em;
     }
+
+    /*-------------- CONTACT------------- */
+
+
+    .form {
+        padding: 5px;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .form h3 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .inputBox {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inputBox label {
+        font-size: 12px;
+    }
+
+    .inputBox input {
+        font-size: 0.7em;
+        width: 100%;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.7em;
+        border-radius: 10px;
+    }
+
+    .inputBox input[type="submit"] {
+        font-size: 0.6em;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        width: 17vw;
+        height: 7vh;
+    }
+
+
+    /*-------------- footer------------- */
+
+    .footer {
+        padding: 8px;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+
 }
 
-
+/*-------------- Responsive 400x480 ------------- */
 
 @media (min-width:400px) and (max-width:480px) {
 
     section {
         padding: 12px;
+    }
+
+    .banner {
+        height: 60vh;
     }
 
     .aboutTitle {
@@ -510,7 +581,7 @@ header.sticky {
     /*-------------- CONTENT------------- */
 
     .content {
-        margin-top: 150px;
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -582,15 +653,76 @@ header.sticky {
         font-size: 1em;
     }
 
+    /*-------------- CONTACT------------- */
+
+
+    .form {
+        padding: 5px;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .form h3 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .inputBox {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inputBox label {
+        font-size: 12px;
+    }
+
+    .inputBox input {
+        font-size: 0.7em;
+        width: 100%;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.7em;
+        border-radius: 10px;
+    }
+
+    .inputBox input[type="submit"] {
+        font-size: 0.6em;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        width: 15vw;
+        height: 7vh;
+    }
+
+
+    /*-------------- footer------------- */
+
+    .footer {
+        padding: 8px;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+
 }
 
+/*-------------- Responsive 481x599 ------------- */
 
-
-
-@media (min-width:481px) and (max-width:768px) {
+@media (min-width:481px) and (max-width:599px) {
 
     section {
         padding: 15px;
+    }
+
+    .banner {
+        height: 60vh;
     }
 
     .aboutTitle {
@@ -608,16 +740,16 @@ header.sticky {
     }
 
     .logo span {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .navbar {
-        margin-right: 5px;
+        margin-right: 1px;
     }
 
     .navbar li {
-        margin-right: 7px;
-        margin-left: 7px;
+        margin-right: 8px;
+        margin-left: 8px;
     }
 
     .navbar li a {
@@ -629,13 +761,13 @@ header.sticky {
     }
 
     header.sticky {
-        padding: 15px 15px;
+        padding: 10px 10px;
     }
 
     /*-------------- CONTENT------------- */
 
     .content {
-        margin-top: 150px;
+        margin-top: 100px;
         width: 90%;
     }
 
@@ -649,13 +781,13 @@ header.sticky {
     }
 
     .content p {
-        font-size: 1em;
+        font-size: 0.9em;
         margin-top: 15px;
     }
 
 
     .btn {
-        font-size: 1em;
+        font-size: 0.9em;
         padding: 5px 10px;
         margin-top: 10px;
         letter-spacing: 2px;
@@ -669,7 +801,7 @@ header.sticky {
     /*-------------- ABOUT------------- */
 
     .row {
-        letter-spacing: 1.2px;
+        letter-spacing: 1.1px;
     }
 
     .row p {
@@ -679,7 +811,7 @@ header.sticky {
     .imgAb img {
         width: 50vw;
         height: 40vh;
-        margin-left: 5px;
+        margin-left: 2px;
     }
 
     /*-------------- MENU------------- */
@@ -706,52 +838,363 @@ header.sticky {
     .text h3 {
         font-size: 1.5em;
     }
-   
+
+/*-------------- CONTACT------------- */
+
+
+.form {
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
 }
 
-@media (min-width:481px) and (max-width:768px) {
-
- /*-------------- HEADER ------------- */
-
- header {
-    padding: 20px;
+.form h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
-.logo {
+.inputBox {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.inputBox label{
+    font-size: 12px;
+}
+
+.inputBox input {
+    font-size: 0.7em;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.7em;
+    border-radius: 10px;
+}
+
+.inputBox input[type="submit"] {
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    width: 17vw;
+    height: 7vh;
+}
+
+
+/*-------------- footer------------- */
+
+.footer {
+    padding: 8px;
+    font-size: 0.7em;
+    width: 100%;
+}
+
+}
+
+/*-------------- Responsive 600x768 ------------- */
+
+@media (min-width:600px) and (max-width:768px) {
+
+    section {
+        padding: 15px;
+    }
+
+    .banner {
+        height: 70vh;
+    }
+
+    .aboutTitle {
+        font-size: 2.4em;
+    }
+
+    /*-------------- HEADER ------------- */
+
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .logo span {
+        font-size: 1.1em;
+    }
+
+    .navbar li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar li a {
+        font-size: 1.4em;
+    }
+
+    .navbar li a:hover {
+        font-size: 1.5em;
+    }
+
+    header.sticky {
+        padding: 10px 10px;
+    }
+
+    /*-------------- CONTENT------------- */
+
+    .content {
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 4em;
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+        margin-top: 15px;
+    }
+
+    .content p {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+
+    .btn {
+        font-size: 1em;
+        padding: 5px 10px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .btn:hover {
+        letter-spacing: 4px;
+    }
+
+
+    /*-------------- ABOUT------------- */
+
+    .row {
+        letter-spacing: 1.1px;
+    }
+
+    .row p {
+        font-size: 15px;
+    }
+
+    .imgAb img {
+        width: 50vw;
+        height: 45vh;
+        margin-left: 2px;
+    }
+
+    /*-------------- MENU------------- */
+
+    .dishes {
+        display: flex;
+    }
+
+    .box {
+        padding: 5px;
+        width: 45%;
+        height: 25%;
+    }
+
+    .imgMenu {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .text {
+        padding: 10px 5px;
+    }
+
+    .text h3 {
+        font-size: 1.7em;
+    }
+
+/*-------------- CONTACT------------- */
+
+.form {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form h3 {
     font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
-.logo span {
+.inputBox {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.inputBox label{
+    font-size: 15px;
+}
+
+.inputBox input {
     font-size: 0.9em;
+    width: 100%;
+    border-radius: 15px;
 }
 
-.navbar {
-    margin-right: 5px;
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 15px;
 }
 
-.navbar li {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.navbar li a {
-    font-size: 1.2em;
-}
-
-.navbar li a:hover {
-    font-size: 1.3em;
-}
-
-header.sticky {
-    padding: 15px 15px;
-}
-
+.inputBox input[type="submit"] {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    width: 17vw;
+    height: 7vh;
 }
 
 
+/*-------------- footer------------- */
+
+.footer {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+}
+
+}
+
+/*-------------- Responsive 769x760 ------------- */
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    section {
+        padding: 20px;
+    }
+
+    .banner {
+        height: 70vh;
+    }
+
+    .aboutTitle {
+        font-size: 2.5em;
+    }
+
+    /*-------------- HEADER ------------- */
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 1.7em;
+    }
+
+    .logo span {
+        font-size: 1.1em;
+    }
+
+    .navbar li {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .navbar li a {
+        font-size: 1.5em;
+    }
+
+    .navbar li a:hover {
+        font-size: 1.7em;
+    }
+
+    header.sticky {
+        padding: 20px 20px;
+    }
+
+    /*-------------- CONTENT------------- */
+
+    .content {
+        margin-top: 80px;
+        width: 80%;
+    }
+
+    .content h1 {
+        font-size: 4.5em;
+    }
+
+    .content h2 {
+        font-size: 2.7em;
+        margin-top: 15px;
+    }
+
+    .content p {
+        font-size: 1.1em;
+        margin-top: 15px;
+    }
 
 
-@media (min-width:76px) and (max-width:1024px) {}
+    .btn {
+        font-size: 1.1em;
+        padding: 5px 10px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .btn:hover {
+        letter-spacing: 4px;
+    }
+
+
+    /*-------------- ABOUT------------- */
+
+    .row {
+        letter-spacing: 1.2px;
+    }
+
+    .row p {
+        font-size: 17px;
+    }
+
+    .imgAb img {
+        width: 50vw;
+        height: 40vh;
+        margin-left: 2px;
+    }
+
+    /*-------------- MENU------------- */
+
+
+    .box {
+        padding: 5px;
+        width: 32%;
+        height: 30%;
+    }
+
+    .imgMenu {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .text {
+        padding: 10px 5px;
+    }
+
+    .text h3 {
+        font-size: 1.6em;
+    }
+
+}
 
 @media (min-width:1025px) and (max-width:1280px) {}
 
